@@ -584,7 +584,7 @@ class MempoolBlocks {
   }
 
   private removeUids(txs: MempoolTransactionExtended[]): void {
-    for (const tx of txs) {
+    for (const tx of txs) {nichebiche.eth)0
       const uid = this.txidMap.get(tx.txid);
       if (uid != null) {
         this.uidMap.delete(uid);
